@@ -44,28 +44,33 @@ bool aimat(Vec3 target,Hack* hack)
 	Vec3* viewAngles = (Vec3*)((clientstate)+hack->dwState_ViewAngles);	
 
 	uintptr_t clientstate1 = *(uintptr_t*)(hack->client +hack->dwLocalPlayer);
-	Vec3* myPos = (Vec3*)(clientstate1+ hack->m_vecOrigin);
+	Vec3 myPos = *(Vec3*)(clientstate1+ hack->m_vecOrigin);
 
 	Vec3* myviewoff = (Vec3*)(clientstate1 + hack->m_vecViewOffset);
-	myPos->x+= myviewoff->x;
-	myPos->y += myviewoff->y;
-	myPos->z += myviewoff->z;
+	myPos.x+= myviewoff->x;
+	myPos.y += myviewoff->y;
+	myPos.z += myviewoff->z;
 
-	Vec3 deltaVec = { target.x - myPos->x, target.y - myPos->y,target.z - myPos->z };
-	float deltaVecLength = GetDistance(target,*myPos);
+	Vec3 deltaVec = { target.x - myPos.x, target.y - myPos.y,target.z - myPos.z };
+	float deltaVecLength = GetDistance(target,myPos);
 
 	float pitch = ((-asin(deltaVec.z / deltaVecLength)) * (180 / PI));
 	float yaw = atan2f(deltaVec.y, deltaVec.x) * (180 / PI);
 	//float pitch = atan2f(-aimVec.z, mag) * 180 / 3.14159265358979323846f;
 	//
-	float headhightdifference = target.z - myPos->z;	
+	float headhightdifference = target.z - myPos.z;	
 	float angle1 = -asin(headhightdifference / deltaVecLength);
 	//
-	if ((pitch >= -30 && pitch <= 30) && (yaw >= -180 && yaw <= 180))
+	if ((pitch >= -89 && pitch <= 89) && (yaw >= -180 && yaw <= 180))
 	{			
-			viewAngles->x = pitch;	
-			viewAngles->y = yaw;	
-			Sleep(5);
+		if (viewAngles->x != pitch)
+		{
+			viewAngles->x = pitch;
+		}
+		if (viewAngles->y != yaw)
+		{
+			viewAngles->y = yaw;
+		}	
 	}
 	return true;
 }

@@ -37,17 +37,17 @@ void APIENTRY hkEndScene(LPDIRECT3DDEVICE9 o_pDevice) {
 
 		//aimbot test 2-aim
 		
-			//int closest_index = getclosestentity(curEnt->vecOrigin, 32, hack);
-			Ent* target = hack->entList->ents[i].ent;
-			draw_player_skeleton(hack, target);
+			int closest_index = getclosestentity(curEnt->vecOrigin, 32, hack);
+			Ent* target = hack->entList->ents[closest_index].ent;
+			//draw_player_skeleton(hack, target);
 
-			//aimbot test still
+			//aimbot 
 			Vec3 enthead3d = hack->GetBonePos(target,8);
 			Vec2 entpos2d, enthead2d;
 			hack->WorldToScreen(enthead3d, enthead2d);
 			DrawFilledRect(enthead2d.x - 5, enthead2d.y - 5, 10, 10, color);
-			//aimat(hack->GetBonePos(target,8),hack);
-			//end of aimbottest
+			aimat(hack->GetBonePos(target,8),hack);
+			//end of aimbot
 	}
 
 	// crosshair

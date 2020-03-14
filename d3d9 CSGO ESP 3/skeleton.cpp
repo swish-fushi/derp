@@ -27,5 +27,6 @@ void draw_player_skeleton(Hack* hack, Ent* player)
 	Drawespline(3, 78, player, color);//rightupperleg
 	//Drawespline(78, 79, player, color);
 	//Drawespline(71, 72, player, color);//left toe
+	//need to make this work with hitboxes and not boneids
 }
 
