@@ -1,6 +1,7 @@
-﻿  dllmain.cpp
+﻿  Aimbot.cpp
 C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(48,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(48,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(46,9): warning C4101: 'entpos2d': unreferenced local variable
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(28,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(40,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(148,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(184,26): warning C4305: 'initializing': truncation from 'double' to 'float'
   Dummy.vcxproj -> C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Debug\Dummy.dll

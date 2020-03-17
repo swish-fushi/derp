@@ -1,0 +1,41 @@
+﻿  Aimbot.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(28,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(40,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(148,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Aimbot.cpp(185,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  dllmain.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(48,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(48,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\dllmain.cpp(46,9): warning C4101: 'entpos2d': unreferenced local variable
+  drawing.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(16,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(16,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(16,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(16,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(25,28): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(25,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(26,28): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(26,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(27,24): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(32,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(32,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(32,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(32,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\drawing.cpp(36,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  dx.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  hack.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  hook.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  skeleton.cpp
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\beta\Desktop\d3d9 CSGO ESP 3\skeleton.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 159 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dummy.vcxproj -> C:\Users\beta\Desktop\d3d9 CSGO ESP 3\Release\Dummy.dll

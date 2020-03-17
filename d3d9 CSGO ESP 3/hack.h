@@ -72,6 +72,13 @@ public:
 	Vec2 crosshair2D;
 	int crosshairSize = 4;
 
+	Vec3* viewAngles = (Vec3*)((engine + dwState) + dwState_ViewAngles);
+	Vec3* myviewoff = (Vec3*)(client + dwLocalPlayer + m_vecViewOffset);
+	Vec3 myPos = *(Vec3*)((client + dwLocalPlayer) + m_vecOrigin);
+	Vec3 myheadview = { myPos.x += myviewoff->x, myPos.y += myviewoff->y,myPos.z += myviewoff->z };
+
+
+
 	void Init();
 	void Update();
 	bool CheckValidEnt(Ent* ent);

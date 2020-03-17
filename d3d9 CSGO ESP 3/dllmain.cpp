@@ -90,6 +90,7 @@ DWORD WINAPI HackThread(HMODULE hModule) {
 
 	// unhook
 	Patch((BYTE*)d3d9Device[42], EndSceneBytes, 7);
+	Sleep(1000);
 
 	// uninject
 	FreeLibraryAndExitThread(hModule, 0);
